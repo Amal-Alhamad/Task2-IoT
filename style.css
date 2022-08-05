@@ -1,0 +1,42 @@
+*,*::after,*::before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: roman;
+    font-size: 20px;
+    background: #fcffd4;
+    display: flex;
+    justify-content: center;
+}
+
+.voice_to_text{
+    width: 650px;
+    text-align: center;
+}
+
+#convert_text{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    resize: none;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+h1{/* for the text that above the title*/
+    font-size: 50px;
+    color: rgb(5, 5, 5);
+}
+
+button{/* the shape of button*/
+    padding: 12px 20px;
+    background: #fff092;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(10, 10, 10);
+}
